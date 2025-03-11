@@ -41,16 +41,16 @@
 
 // Answer:
 
-let createCounter = (init) => {
-  let num = init;
-  return {
-    increment: () => { return ++num },
-    reset: () => { return num = init },
-    decrement: () => { return --num }
-  }
-}
+// let createCounter = (init) => {
+//   let num = init;
+//   return {
+//     increment: () => { return ++num },
+//     reset: () => { return num = init },
+//     decrement: () => { return --num }
+//   }
+// }
 
-const counter = createCounter(5)
-console.log(counter.increment()); // 6
-console.log(counter.reset()); // 5
-console.log(counter.decrement()); // 4
+// const counter = createCounter(5)
+// console.log(counter.increment()); // 6
+// console.log(counter.reset()); // 5
+// console.log(counter.decrement()); // 4
